@@ -1,0 +1,39 @@
+#d1
+{
+    height: 760px;
+    width: 100%;
+    border: 1px solid black;
+    /* background-image: url("login.jpg"); */
+    background-size: 100%;
+}
+#d2
+{
+    height: 500px;
+    width: 450px;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-left: 200px;
+    backdrop-filter:blur(3px);
+    border-radius: 20px;  
+}
+input
+{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+#mob
+{
+    padding: 20px;
+}
+#pass
+{
+    padding: 20px;
+}
+h2 a:link 
+{
+    color: white;
+}
+

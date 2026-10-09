@@ -1,0 +1,212 @@
+ *{
+                box-sizing: border-box;
+                 margin: 0;
+                padding: 0;
+            }
+            ul{
+                list-style-type: none;
+               
+                font-size: 22px;
+            }
+            li{
+                 margin: 8px; 
+                 margin-top: 6px;
+                float: left;
+
+            }
+            li a{
+                text-decoration: none;
+                 padding: 6px; 
+                 border-radius: 5px;
+            }
+            li a:hover{
+                background-color: black;
+                color: rgb(255, 255, 255);
+                font-size: 23px;
+            }
+#d1
+{
+    height: 750px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: antiquewhite;
+}
+#header
+{
+    height: 120px;
+    width: 100%px;
+    border: 1px solid black;
+    background-color:lightsteelblue;  
+    overflow: hidden;
+    align-content: center;
+}
+#slighter
+{
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: darkgray;
+    font-size: 20px;
+    
+    text-align: center;
+}
+#abc
+{
+    font-size: 25pt;
+    margin-top: 7px;
+    color:black;
+    padding: 5px;
+
+}
+#footer
+{
+    height: 30px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #2c3e50;
+    /* margin-top: -30px; */
+    text-align: center;
+}
+#logo
+{
+    height: 110px;
+    width: 110px;
+    border-radius: 60px;
+    background-color: white;
+    float: left;
+    margin-left:10px;
+    background-image: url(logo.jpg);
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+}
+#title
+{
+    height: 90px;
+    width:700px;
+    /* border: 1px solid black; */
+    margin-left:320px ;
+    /* margin-top: -98px; */
+    /* text-align: center;
+    align-self: center; */
+    align-content: center;
+    float: left;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+}
+#col
+{
+    height: 39.5px;
+    width:300px;
+    border: 1px solid black;
+    margin-left:100px ;
+    margin-right: 20px;
+    margin-top: 60px;
+    float: right;
+}
+/* #column1
+{
+    height:250px;
+    width: 350px;
+    border: 2px solid black;
+    /* background-image: url("toyota.jpg"); */
+    /* background-position: center;
+    background-size: cover; 
+
+}
+#column2
+{
+    height:250px;
+    width: 350px;
+    border: 2px solid black;
+    /* background-image: url("tata.jpg");
+    background-size: 100%; 
+    
+}
+#column3
+{
+       height:250px;
+    width: 350px;
+    border: 2px solid black;
+    /* background-image: url("vw.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+    /* background-position: center; 
+
+
+}
+#column4
+{
+    height:250px;
+    width: 350px;
+    border: 2px solid black;
+    /* background-image: url("suzuki.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    /* background-position: center; 
+}
+#column5
+{
+      height:250px;
+    width: 350px;
+    border: 2px solid black;
+    /* background-image: url("mercedes.jpg");
+    background-size: 100%; */
+    /* background-repeat: no-repeat;
+}
+#column6
+{
+       height:250px;
+    width: 350px;
+    border: 2px solid black;
+    /* background-image: url("hyndai.jpg");
+    background-size: 100%; */
+    /* background-size: cover;
+
+}
+#column7
+{
+       height:250px;
+    width: 350px;
+    border: 2px solid black;
+    /* background-image: url("bmw.jpg");
+    background-size: 100%; 
+
+}
+#column8
+{
+    height:250px;
+    width: 350px;
+    border: 2px solid black;
+    /* background-image: url("audi.jpg");
+    background-size: 100%; */
+    /* background-position: center; 
+
+} */
+ .col{
+    height:250px;
+    width: 350px;
+    border: 2px solid black;
+        transition: all 0.3s ease,transform 0.5s ease ;
+
+    
+}
+.col:hover
+{
+    transform: scale(1.1);
+    box-shadow: 20px;
+    border:2px solid yellow;
+     box-shadow: 10px 10px 20px rgba(0, 0, 0, 2.3);
+   
+}
+ 
+  
+.col .i1
+ {
+  
+    background-position: center;   
+    width: 100%;
+    height: 100%;
+    background-position: cover;
+} 

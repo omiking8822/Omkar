@@ -1,0 +1,55 @@
+#d1
+{
+    height: 760;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url("car6.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+#d2
+{
+    height: 600px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 80px;
+    backdrop-filter: blur(10px);
+}
+
+input
+{
+    height:30px;
+    width:200px;
+    font-size: 15px;
+    transition: border-color 0.5s ease-in transform 0.3s ease-in;
+    background-color:antiquewhite;
+}
+
+input[type="radio"]
+{
+    height:25px;
+    width:20px;
+}
+.s1
+{
+    height:40px;
+    width:170px;
+}
+#sub:hover
+{
+    background-color: green;
+    color: white;
+}
+#rs:hover
+{
+    background-color: gray;
+    color: white;
+}
+input:hover
+{
+    transform: scale(1.1);
+}
+
+
+
